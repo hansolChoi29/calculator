@@ -7,9 +7,9 @@ public class Main {
 //Scanner를 사용하여 양의 정수 2개(0 포함)를 전달 받을 수 있습니다.
         Scanner scanner = new Scanner(System.in);
         System.out.println("첫 번째 숫자를 입력해 주세요.");
-        int first_number = scanner.nextInt();
+        int numOne = scanner.nextInt();
         System.out.println("두 번째 숫자를 입력해 주세요.");
-        int second_number = scanner.nextInt();
+        int numTow = scanner.nextInt();
 
 //Scanner를 사용하여 사칙연산 기호를 전달 받을 수 있습니다.
         Scanner sc = new Scanner(System.in);
@@ -20,17 +20,17 @@ public class Main {
 
         switch (giho) {
             case '+':
-                result = first_number + second_number;
+                result = numOne + numTow;
                 break;
             case '-':
-                result = first_number - second_number;
+                result = numOne - numTow;
                 break;
             case '/':
-                if(second_number==0){
+                if(numTow==0){
                     System.out.println("나눗셈 연산에서 부모에 0이 입력될 수 없습니다.");
                     error=true;
                 }else{
-                    result=(double) first_number/second_number;
+                    result=(double) numOne/numTow;
                 }
                 break;
             default:

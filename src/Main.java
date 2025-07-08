@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.DoubleToIntFunction;
-//브랜치 나누기
 
 //TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
@@ -14,10 +13,6 @@ public class Main {
             //무한 저장
             Scanner scanner =new Scanner(System.in);
             List<Double> results =new ArrayList<>();
-
-            //계산결과 10개까지 배열로 저장
-//            double[] results=new double[10];
-//            int count=0;
 
         while (true) {
 
